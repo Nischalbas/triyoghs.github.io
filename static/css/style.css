@@ -28,8 +28,7 @@ body{
 
 .section-center{
   position: absolute;
-  top: 50%;
-  left: 20px;
+  top: 40%;
   display: block;
   width: 100%;
   padding: 0;
@@ -443,4 +442,14 @@ body{
   .cards-list {
     margin-top: 50px;
   }
+}
+
+.o-img {
+  position: absolute;
+  border: 9px solid #fff;
+  border-radius: 25px;
+  top: 100px;
+  right: 800px;
+  height: 820px;
+  width: 650px;
 }
