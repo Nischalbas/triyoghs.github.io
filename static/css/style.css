@@ -425,6 +425,36 @@ a {
 	display: block;
 }
 
+/* NAVBAR MOBILE */
+
+@media screen and (max-width: 650px) {
+  .logo {
+    top: 16px;
+    left: 9px;
+    z-index: 11;
+    transition: all 250ms linear;
+  }
+  .logo img {
+    height: 166px;
+    width: auto;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .logo {
+    top: 16px;
+    left: 9px;
+    z-index: 11;
+    transition: all 250ms linear;
+  }
+  .logo img {
+    height: 145px;
+    width: auto;
+    display: block;
+  }
+}
+
 /* CARDS */
 
 .cards-list {
@@ -531,3 +561,4 @@ a {
     margin-top: 50px;
   }
 }
+
